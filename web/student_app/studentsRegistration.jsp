@@ -49,9 +49,6 @@
                     x5 = document.getElementById('password').value;
                     if (x1.length > 3)
                     {
-                        if (re2.test(x2))
-                        {
-
                             if (re3.test(x3))
                             {
                                 if (re5.test(x5))
@@ -59,20 +56,15 @@
                                     form.submit();
                                 }
                                 else
-                                {
+                              {
                                     document.getElementById('nam5').innerHTML = "Invalid Password";
                                 }
-                            }
+                           }
                             else
                             {
-                                document.getElementById('nam2').innerHTML = "Invalid email";
+                                document.getElementById('nam1').innerHTML = "Invalid email";
                             }
                         }
-                        else
-                        {
-                            document.getElementById('nam1').innerHTML = "Invalid Username";
-                        }
-                    }
                     else
                     {
                         document.getElementById('nam').innerHTML = "Invalid Name";
@@ -86,7 +78,7 @@
         <body id="body">
 
             <h2 id="tab">Registration Form</h2>
-            <form action="alumini_verify.jsp" name="form" method="post">
+            <form action="studentRegisVerification.jsp" name="form" method="post">
                 <table id="table" cellpadding="15">
                     <!--Name and Email-->
                     <tr>

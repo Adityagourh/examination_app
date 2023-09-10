@@ -1,0 +1,86 @@
+#mymenu 
+{
+color:rgb(120,5,10);
+background-color:rgba(49,100,107,0.0);
+text-align:left;
+}
+#mymenu ul li
+{
+ text:bold;
+display:inline-block;
+padding:12px; 
+}
+#table
+{
+ margin-top:220px;
+ margin-left:0px;
+}
+table
+{
+ border-radius:30px;
+ font-style:bold;
+ color:white;
+ background-color:rgba(0,0,0,0.3);
+ box-shadow:20px 20px,30px,white;
+}
+body
+{
+	background-image:url("login14.jpg");
+	background-repeat:no-repeat;
+	background-size:100%;
+        background-attachment:fixed;
+}
+.B
+{
+	width:80px;
+	height:40px;
+	background:linear-gradient(to right,rgb(221,22,98),rgb(255,255,255));
+	color:white;
+}
+.B:hover
+{
+	width:80px;
+	height:40px;
+	background:linear-gradient(to right,rgb(255,255,255),rgb(12,22,98));
+	color:black;
+}
+.t1
+{
+border-radius:30px;
+}
+.a{
+ background-color:white;
+ color:black;
+ }
+ #p{
+      background-color:red;
+     font-size:100px;
+     font-family:Bodoni MT Black;
+     text-align:inherit;
+     }
+  .t
+	 {
+           border-radius:10px;	
+           width:150px;
+	   height:40px;
+	   background:linear-gradient(to right,rgb(36,44,59),rgb(1,1,1));
+	   color:white;
+	  }
+          
+          .t.hover
+	 {
+           border-radius:10px;	
+           width:150px;
+	   height:40px;
+	   background-color:rgba(255,255,255,1.0);
+	   color:white;
+	  }
+
+          .examt
+	 {
+           border-radius:30px;	
+           width:150px;
+	   height:40px;
+	   background:linear-gradient(to right,rgb(36,44,59),rgb(1,1,1));
+	   color:white;
+	  }
